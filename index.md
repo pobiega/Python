@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
+# Pobiega's guide to getting started with Python
 
-You can use the [editor on GitHub](https://github.com/pobiega/Python/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Getting Python
+First things first: we have to download and install python. Head on over to [Python.org](https://www.python.org/downloads/) and download the latest version for your OS. At the time of writing, this is version 3.6.1. If you have a 64-bit OS (you most likely do in this day and age), you might as well snag the 64-bit version of Python.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Install it and proceed.
 
-### Markdown
+*Note: Version 2.7 is still widely used but is not recommended for learning Python or writing new scripts and programs. You can have both 2.7 and 3.6+ installed at the same time, but for this guide I recommend you just skip 2.7.*
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Picking an editor
+Now this is where you have to make a choice. Python is an interpreted language, meaning that the programs are run directly from their sourcefiles. Python really shines at writing small programs with a very specific use in mind, commonly called __scripts__. These are often short and written in a single file, meaning that you don't need an overly complicated [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) to get the job done, all you need is a text editor. You can in fact write Python using nothing but Notepad, but I highly recommend getting a proper editor that has language support.
 
-```markdown
-Syntax highlighted code block
+Below is a short list of some of the editors I have used and like.
 
-# Header 1
-## Header 2
-### Header 3
+### Visual Studio Code
+Link: [Visual Studio Code](https://code.visualstudio.com/)
+Available for: Windows, OS, Linux
 
-- Bulleted
-- List
+VS Code is a fantastic editor that has a lot of really clever features while still being lightweight. Any directory can be opened as a project giving you a nice overview of your entire codebase. 
 
-1. Numbered
-2. List
+Features:
+* Syntax-highlighting
+* Built in git-support
+* Debugging
+* Smart completion / autocomplete
+* Fantastic plugin system
+* Quick-command to run active python file
+* Integrated terminal
 
-**Bold** and _Italic_ and `Code` text
+### Notepad++
+Link: [Notepad++](https://notepad-plus-plus.org/)
+Available for: Windows
 
-[Link](url) and ![Image](src)
-```
+Basicly a better notepad, giving it some much needed features. It's incredibly lightweight and fantastic if you just want something slightly more advanced than regular notepad.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Features:
+* Syntax-highlighting
+* Plugin system
+* Quick-command to run active python file (configurable)
 
-### Jekyll Themes
+### PyCharm
+Link: [PyCharm](https://www.jetbrains.com/pycharm/)
+Available for: Windows, Mac, Linux
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pobiega/Python/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+I did say that you don't need an IDE for writing smaller scripts. But if you want to write something bigger, you might want to consider PyCharm. It's a full-featured IDE with everything that entails. Downsides is that its a big piece of software and can take a while to load, plus a steeper learning curve. Perhaps not great for absolute beginners, it's maybe something you would consider using when you are a little bit more comfortable.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Features:
+* Syntax-highlighting
+* Built in git-support
+* Debugging
+* Smart completion / autocomplete
+* Plugin system
+* Quick-command to run active python project/file (super configurable)
+* Integrated terminal
+* Full-blown IDE
+* Multiple Python installation-support (2.7 and 3.6, for example)
