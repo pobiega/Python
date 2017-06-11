@@ -54,3 +54,8 @@ Features:
 * Integrated terminal
 * Full-blown IDE
 * Multiple Python installation-support (2.7 and 3.6, for example)
+
+
+## Learning Python
+
+To be continued...
